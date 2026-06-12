@@ -8,6 +8,10 @@
   ],
   "personal_fields": [
     {
+      "label": "填表日期",
+      "type": "date"
+    },
+    {
       "label": "姓名",
       "type": "text"
     },
@@ -33,19 +37,19 @@
     },
     {
       "label": "出生日期",
-      "type": "text"
+      "type": "date"
     },
     {
       "label": "身高",
-      "type": "text"
+      "type": "height"
     },
     {
       "label": "体重",
-      "type": "text"
+      "type": "weight"
     },
     {
       "label": "理想体重",
-      "type": "text"
+      "type": "weight"
     },
     {
       "label": "家庭医师的名字和地址",
@@ -756,18 +760,28 @@
             0,
             0
           ],
-          "followup": "频率 / 粘稠度 / 颜色 / 气味"
+          "followup": "大便情况",
+          "followup_type": "stool_inline"
         },
         {
-          "text": "嗜吃",
+          "text": "嗜甜",
           "scores": [
             0,
             0,
             0,
             0,
             0
-          ],
-          "followup": "甜 / 咸 / 其它"
+          ]
+        },
+        {
+          "text": "嗜咸",
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ]
     },
@@ -1441,7 +1455,8 @@
             0,
             0
           ],
-          "followup": "是 / 否；如有紊乱，请填写发病日期"
+          "followup": "更年期",
+          "followup_type": "menopause"
         },
         {
           "text": "荷尔蒙疗法",
@@ -1452,7 +1467,8 @@
             0,
             0
           ],
-          "followup": "开始日期"
+          "followup": "荷尔蒙疗法",
+          "followup_type": "hormone"
         },
         {
           "text": "生理期：频繁、量多且疼痛",
